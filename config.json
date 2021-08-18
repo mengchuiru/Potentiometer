@@ -1,0 +1,30 @@
+{
+  "name": {
+    "zh-cn": "电位器",
+    "en": "Potentiometer"
+  },
+  "description": {
+    "zh-cn": "是可变电阻器的一种",
+    "en": "It is one of a variable resistor"
+  },
+  "author": "MarsCollege",
+  "email": "wangyinshen@zju.edu.cn",
+  "license": "MIT",
+  "isBoard": false,
+  "id": "Potentiometer",
+  "version": "0.0.1",
+  "platform": [
+    "win",
+    "mac"
+  ],
+  "asset": {
+    "arduinoC": {
+      "dir": "arduinoC/",
+      "version": "0.0.1",
+      "board": [
+        "microbit"
+      ],
+      "main": "main.ts"
+    }
+  }
+}
